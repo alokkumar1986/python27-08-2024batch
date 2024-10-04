@@ -7,6 +7,7 @@ Operators
 5) Membership
 6) Identity
 7) Bitwise 
+8) Ternary Operator
 '''
 
 '''Arithmatic 

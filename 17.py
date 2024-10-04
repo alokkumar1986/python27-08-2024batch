@@ -1,18 +1,18 @@
-i = 10
+'''i = 10
 while(i>0):
     print(i)
-    i= i-1
+    i= i-1 '''
     
 #counter must initialized
 #Inside while body counter must increased or decreased
 
 #find sum of 1 to 10
-k = 1
+'''k = 1
 sum = 0
 while(k<11):
     sum = sum+k
     k= k+1
-print('Sum is : ', sum)
+print('Sum is : ', sum) '''
 
 
 for i in range(3): 
