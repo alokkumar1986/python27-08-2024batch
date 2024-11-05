@@ -1,0 +1,48 @@
+Exception handling in Python :
+
+error or exception 
+
+try
+except
+else 
+finally
+
+try : code to test
+except : handle the error
+else : handle when there is no error
+finally : always execute regardlessly the result of the try block
+
+File Handling in python : 
+
+Operation like read, write, append, delete a file is called as file operation
+Python provides several function to operate on a file. These are called as file handling
+
+open() : It is used to open a file. 
+
+takes two arguments 
+1) path of the file
+2) mode of the file 
+   x  : create  : create a file, if file already exists gives error
+   r  : read    : opens a file for reading, error if file does not exists  (default)
+   w  : write   : opens a file for writing, error, it will create a file, if does not exists
+   a  : append  : opens a file for appending, it will create a file, if does not exists
+
+
+
+close() : It is used to close the file which is open
+read()  : It is used to read the content of a file
+write() : It is used to write the content of a file. If there is content in the file, it will          erase it and write new lines
+append() : It is used to write the content of a file. If there is content in the file, it will          append contents in new lines
+
+delete()
+
+
+
+
+
+
+
+
+
+
+
