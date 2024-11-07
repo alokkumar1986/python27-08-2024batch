@@ -3,11 +3,10 @@
 import re
 
 '''
-findall() : Find all the occurance in a string
-search()
-find()
-sub()
-
+findall() : Find all the occurance string in a string
+search()  : Find first occurance of a string/character in string / None
+split()   : Prepare a list of string by spliting with a character from a string
+sub()     : Find a string/character in another string and replace with a string/character
 '''
 
 txt = 'Python Tutorial in Aptech'
