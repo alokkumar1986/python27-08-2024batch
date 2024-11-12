@@ -1,4 +1,4 @@
-#generators : It is a function which has at least a yield inside 
+#generators : It is a function which has at least a yield statement inside 
 def fun():
     print('1')
     print('10')
@@ -12,4 +12,11 @@ def fun():
     print('10000000')
     print('100000000')
     print('1000000000')
-fun()
+    yield 3
+
+num = fun()
+print(next(num))
+
+#print(next(num))
+
+#print(next(num))

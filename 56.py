@@ -37,7 +37,7 @@ def myfun1(n) :
         if n%i==0:
           sum= sum +i
     if sum/n ==2:
-        return sum
+        return n
 li = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 nli = filter(myfun1, li)
 print(list(nli))
