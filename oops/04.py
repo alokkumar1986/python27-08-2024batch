@@ -4,15 +4,15 @@ class HtmlDocument:
 
 
 d = HtmlDocument()
-print(d.extension)
-print(d.version)
+print(d.extension) #Html
+print(d.version)  #5
 
 
-print(HtmlDocument.extension)
-print(HtmlDocument.version)
+print(HtmlDocument.extension) #Html
+print(HtmlDocument.version) #5
 
 extension = getattr(HtmlDocument, 'extension')
-print(extension)
+print(extension) #Html
 
 xyz = getattr(HtmlDocument, 'xyz', 'abcd')
 print(xyz)
